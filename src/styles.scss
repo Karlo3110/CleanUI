@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+.body-wrapper{
+  position: absolute;
+  background: rgb(14,0,255);
+  background: linear-gradient(37deg, rgba(14,0,255,1) 0%, rgba(102,102,249,1) 51%, rgba(0,212,255,1) 100%);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.header1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.header2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+/* Importing Datepicker SCSS file. */
+@import "node_modules/ngx-bootstrap/datepicker/bs-datepicker";
